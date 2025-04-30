@@ -1,0 +1,43 @@
+.about-me {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.about-image {
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    box-shadow: var(--default-box-shadow);
+}
+
+.about-me img {
+    width: 150px;
+    height: 150px;
+    border-radius: var(--section-radius-sm);
+    object-fit: cover;
+  }
+
+  .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 240px;
+    height: 150px;
+    background-color: var(--section-background);
+    border-radius: var(--section-radius-sm);
+    padding: var(--section-padding-sm);
+    gap: 10px;
+    box-shadow: var(--default-box-shadow);
+  }
+
+  .about-name {
+    font-size: var(--h1-about-name-sm);
+  }
+
+  .about-description-1 {
+    font-size: var( --font-size-sm);
+  }
+
+  .about-description-2 {
+    display: none;
+  }
