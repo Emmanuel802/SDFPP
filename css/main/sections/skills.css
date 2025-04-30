@@ -69,3 +69,37 @@
 
 
 
+/* ==== SKILLS ==== */
+.skills {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--section-background);
+    padding: var(--section-padding-sm);
+    border-radius: var(--section-radius-sm);
+    gap: 16px;
+    box-shadow: var(--default-box-shadow);
+}
+
+.skills h2 {
+    font-size: var(--h2-font-size-sm);
+    font-weight: var(--subheading-font-weight); 
+}
+
+.skills-wrapper {
+    font-size: var(--font-size-sm);
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-item {
+    background-color: var(--content-background);
+    list-style: none;
+    padding: 4px 10px;
+    border-radius: 40px;
+}
+
