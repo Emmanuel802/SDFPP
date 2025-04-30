@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins', sans-serif;
+    background-image: url(../../../Assets/images/background/mobile-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 400px;
+}
+
+a {
+    text-decoration: none;
+}
