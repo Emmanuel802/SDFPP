@@ -1,0 +1,71 @@
+/* ==== PROFICIENCY ==== */
+.proficiency-skills {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+    gap: 16px;
+}
+
+.proficiency {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--section-background);
+    padding: var(--section-padding-sm);
+    border-radius: var(--section-radius-sm);
+    gap: 16px;
+    box-shadow: var(--default-box-shadow);
+}
+
+.proficiency h2 {
+    font-size: var(--h2-font-size-sm);
+    font-weight: var(--subheading-font-weight);
+}
+
+
+.proficiency-item-header {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    font-size: var(--font-size-sm);
+}
+
+.proficiency-item-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: var(--font-size-sm);
+    gap: 10px;
+}
+
+.proficiency-item {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+.proficiency-item span {
+    display: block;
+    margin: auto 0;
+    height: 11px;
+    background-color: var(--primary-color);
+    border-radius: var(--progress-radius-bar-sm);
+}
+
+.proficiency-item .javascript-bar {
+    width: 5%;
+}
+
+.proficiency-item .react-bar {
+    width: 1%;
+}
+
+.proficiency-item .tailwind-bar {
+    width: 13%;
+}
+
+.proficiency-item .html-css-bar {
+    width: 25%;
+}
+
+
+
