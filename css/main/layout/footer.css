@@ -1,0 +1,45 @@
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 400px;
+    height: 100px;
+    color: var(--font-secondary);
+    background-color: var(--secondary-color);
+    border-radius: var(--section-radius-sm);
+    padding: var(--section-padding-sm);
+    box-shadow: var(--default-box-shadow);
+}
+
+.contact h2 {
+    font-size: var(--h2-font-size-sm);
+    font-weight: var(--subheading-font-weight);
+}
+
+.contact-list {
+    display: flex;
+    font-size: var(--font-size-sm);
+}
+
+.contact li {
+    list-style: none;
+}
+
+.contact a {
+    color: var(--footer-links);
+}
+
+.contact-item-3, 
+.contact-item-4 {
+    display: none;
+}
+
+.contact span {
+    margin: 0 0.6rem;
+}
+
+  .vertical-slash-2, 
+  .vertical-slash-3 {
+    display: none;
+  }
