@@ -1,0 +1,65 @@
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--section-background);
+    padding: var(--section-padding-sm);
+    border-radius: var(--section-radius-sm);
+    gap: 16px;
+    box-shadow: var(--default-box-shadow);
+}
+
+.projects h2 {
+    font-size: 0.9rem;
+    font-weight: var(--subheading-font-weight); 
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.project-card-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--font-secondary);
+    background-color: var(--primary-color);
+    border-radius: var(--section-radius-sm);
+    padding: 10px;
+    gap: 20px;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--content-background);
+    border-radius: var(--section-radius-sm);
+    padding: 10px;
+    gap: 20px;
+}
+
+.project-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+}
+
+.heart-2,
+.heart-3,
+.heart-4 {
+    display: none;
+}
+
+.project-title {
+    font-size: 0.9rem;
+    font-weight: var(--subheading-font-weight);
+}
+
+.project-description,
+.project-technologies,
+.project-responsibilities {
+    font-size: var(--font-size-sm);
+}
