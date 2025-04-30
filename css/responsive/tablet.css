@@ -1,0 +1,224 @@
+@media (min-width: 600px) {
+    body {
+        min-width: 675px;
+        background-image: url(/Assets/images/background/desktop-background.png);
+    }
+    
+
+    /* ===== HEADER ===== */
+    .about-me {
+        gap: 15px;
+    }
+
+    .about-image {
+        height: 175px;
+        width: 175px;
+    }
+
+    .about-me img {
+        width: 175px;
+        height: 175px;
+    }
+
+    .about-content {
+        width: 410px;
+        height: 175px;
+        padding: var(--section-padding-md);
+    }
+
+    .about-name {
+        font-size: var(--h1-about-name-md);
+    }
+    
+    .about-description-1,
+    .about-description-2 {
+        font-size: var( --font-size-md);
+        font-weight: 400;
+    }
+
+    .about-description-2 {
+        display: inline;
+    }
+
+
+    /* ===== MAIN CONTENT ===== */
+    main {
+        width: 600px;
+    }
+
+
+
+    /* ===== PROFICIENCY & SKILLS ===== */
+    .proficiency {
+        padding: var(--section-padding-md);
+    }
+
+
+    .proficiency h2 {
+        font-size: var(--h2-font-size-md);
+    }
+    
+    .proficiency-item-header,
+    .proficiency-item-wrapper {
+        font-size: var(--font-size-md);
+    }
+
+    .proficiency-item span {
+        height: 15px;
+    }
+
+
+    /* ===== SKILLS ===== */
+    .skills {
+        padding: var(--section-padding-md);
+    }
+
+    .skills h2 {
+        font-size: var(--h2-font-size-md);
+    }
+
+    .skills-wrapper {
+        font-size: var(--font-size-md);
+    }
+
+
+
+    /* ===== PROJECTS ===== */
+    .projects {
+        padding: var(--section-padding-md);
+    }
+
+    .projects h2 {
+        font-size: var(--h2-font-size-md);
+    }
+
+    .projects-container {
+        gap: 15px;
+    }
+
+    .project-card-1,
+    .project-card {
+        padding: var(--section-padding-md);
+        gap: 25px;
+    }
+  
+    .project-meta {
+        font-size: 0.9rem;
+    }
+
+    .heart-2,
+    .heart-3,
+    .heart-4 {
+        display: inline;
+    }
+
+
+    .project-description,
+    .project-technologies,
+    .project-responsibilities {
+        font-size: var(--font-size-md);
+    }
+
+
+
+    /* ===== EDUCATION ===== */
+    .education {
+        padding: var(--section-padding-md);
+    }
+
+    .education h2 {
+        font-size: var(--h2-font-size-md);
+    }
+
+    .education-item-1,
+    .education-item-2 {
+        font-size: var(--font-size-md);
+        padding: var(--section-padding-md);
+    }
+
+    .education-point-list {
+        gap: 10px;
+    }
+
+
+
+
+    /* ===== TOOLS ===== */
+    .tools {
+        padding: var(--section-padding-md);
+    }
+    
+
+    .tools h2 {
+        font-size: var(--h2-font-size-md);
+    }
+
+    .tools-items-wrapper {
+        gap: 2rem;
+    }
+
+    .tool-category-title h5 {
+        font-size: 0.8rem;
+        padding: 2px 10px;
+    }
+
+    .tools-image {
+        height: 30px;
+        width: 30px;
+        padding: 40px 30px;
+    }
+
+    .tools-image img {
+        height: 30px;
+        width: 30px;
+    }
+
+
+    
+    /* ===== EXPERIENCE ===== */
+    .experience {
+        padding: var(--section-padding-md);
+    }
+
+    .experience h2 {
+        font-size: var(--h2-font-size-md);
+    }
+
+    .experience-card-1,
+    .experience-card-2 {
+        font-size: var(--font-size-md);
+        padding: var(--section-padding-md);
+    }
+
+    .experience-point-list {
+        gap: 10px;
+    }
+
+
+
+    /* ===== FOOTER ===== */
+    .contact {
+        width: 600px;
+        height: 125px;
+        padding: var(--section-padding-md);
+    }
+
+    .contact h2 {
+        font-size: var(--h2-font-size-md);
+    }
+
+    .contact-list {
+        font-size: var(--font-size-md);
+    }
+    
+    .contact-item-3,
+    .contact-item-4 {
+        display: inline;
+    }
+
+    .vertical-slash-2,
+    .vertical-slash-3 {
+        display: inline;
+    }
+        
+}
