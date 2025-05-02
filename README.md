@@ -119,3 +119,8 @@ Take your time. Follow the walkthrough. Ask for help if you need it.
 You're not just building a resume site — you're building confidence, skills, and a real piece of your future portfolio.
 
 **You’ve got this. Let’s go! 🚀**
+
+
+
+
+[Video Presentation](https://drive.google.com/file/d/1mrLs9XCx7jqjMj3iVYKhJb9_Ef3AoFGJ/view?usp=sharing)
