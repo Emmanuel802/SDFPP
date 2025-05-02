@@ -9,6 +9,7 @@
     width: 150px;
     overflow: hidden;
     box-shadow: var(--default-box-shadow);
+    border-radius: var(--section-radius-sm);
 }
 
 .about-me img {
