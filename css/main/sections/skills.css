@@ -40,7 +40,16 @@
 
 .proficiency-item {
     display: grid;
-    grid-template-columns: 2fr 3fr;
+    grid-template-columns: 4fr 9fr;
+}
+
+.progress-bar {
+    display: block;
+    margin: auto 0;
+    height: 12px;
+    width: 70%;
+    background-color: var(--content-background);
+    border-radius: var(--progress-radius-bar-sm);
 }
 
 .proficiency-item span {
