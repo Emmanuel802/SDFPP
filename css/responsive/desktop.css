@@ -29,17 +29,20 @@
     .about-image {
         height: 200px;
         width: 200px;
+        border-radius: var(--default-radius-lg);
     }
 
     .about-me img {
         width: 200px;
         height: 200px;
+        border-radius: var(--default-radius-lg);
     }
 
     .about-content {
         width: 580px;
         height: 200px;
         padding: var(--section-padding-lg);
+        border-radius: var(--default-radius-lg);
     }
 
     .about-name {
@@ -62,6 +65,7 @@
 
     .proficiency {
         padding: var(--section-padding-lg);
+        border-radius: var(--default-radius-lg);
     }
 
 
@@ -74,10 +78,15 @@
     /* ===== SKILLS ===== */
     .skills {
         padding: var(--section-padding-lg);
+        border-radius: var(--default-radius-lg);
     }
 
     .skills h2 {
         font-size: var(--h2-font-size-lg);
+    }
+
+    .skill-item {
+        border-radius: 96px;
     }
 
 
@@ -94,6 +103,7 @@
     .project-card-1,
     .project-card {
         gap: 15px;
+        border-radius: var(--default-radius-lg);
     }
 
   
@@ -107,10 +117,16 @@
 
     .education {
         padding: var(--section-padding-lg);
+        border-radius: var(--default-radius-lg);
     }
 
     .education h2 {
         font-size: var(--h2-font-size-lg);
+    }
+
+    .education-item-1,
+    .education-item-2 {
+        border-radius: var(--default-radius-lg);
     }
 
 
@@ -118,6 +134,7 @@
     /* ===== TOOLS ===== */
     .tools {
         padding: var(--section-padding-sm);
+        border-radius: var(--default-radius-lg);
         gap: 30px;
         margin: 1rem 0;
     }
@@ -137,6 +154,7 @@
     /* ===== EXPERIENCE ===== */
     .experience {
         padding: var(--section-padding-lg);
+        border-radius: var(--default-radius-lg);
     }
 
     .experience h2 {
@@ -147,6 +165,7 @@
     .experience-card-2 {
         font-size: var(--font-size-md);
         padding: var(--section-padding-lg);
+        border-radius: var(--default-radius-lg);
     }
 
     .experience-point-list {
@@ -160,6 +179,7 @@
         width: 800px;
         height: 125px;
         padding: var(--section-padding-lg);
+        border-radius: var(--default-radius-lg);
     }
 
     .contact h2 {
