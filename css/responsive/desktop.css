@@ -1,188 +1,172 @@
 @media (min-width: 1024px) {
-    html {
-        scroll-padding-top: 7rem;
-    }
+  html {
+    scroll-padding-top: 7rem;
+  }
 
+  body {
+    min-width: 1100px;
+    padding-top: 8rem;
+  }
 
-    body {
-        min-width: 1100px;
-        padding-top: 8rem;
-    }
+  /* ===== NAVIGATION ===== */
+  .navigation {
+    min-height: 6rem;
+  }
 
-    /* ===== NAVIGATION ===== */
-    .navigation {
-        min-height: 6rem;
-    }
+  .nav-menu {
+    top: 2rem;
+    width: 20%;
+  }
 
-    .nav-menu {
-        top: 2rem;
-        width: 20%;
-    }
+  /* ===== HEADER ===== */
+  .about-me {
+    gap: 20px;
+  }
 
+  .about-image {
+    height: 200px;
+    width: 200px;
+    border-radius: var(--default-radius-lg);
+  }
 
+  .about-me img {
+    width: 200px;
+    height: 200px;
+    border-radius: var(--default-radius-lg);
+  }
 
-    /* ===== HEADER ===== */
-    .about-me {
-        gap: 20px;
-    }
+  .about-content {
+    width: 580px;
+    height: 200px;
+    padding: var(--section-padding-lg);
+    border-radius: var(--default-radius-lg);
+  }
 
-    .about-image {
-        height: 200px;
-        width: 200px;
-        border-radius: var(--default-radius-lg);
-    }
+  .about-name {
+    font-size: var(--h1-about-name-lg);
+  }
 
-    .about-me img {
-        width: 200px;
-        height: 200px;
-        border-radius: var(--default-radius-lg);
-    }
+  /* ===== MAIN CONTENT ===== */
+  main {
+    width: 800px;
+  }
 
-    .about-content {
-        width: 580px;
-        height: 200px;
-        padding: var(--section-padding-lg);
-        border-radius: var(--default-radius-lg);
-    }
+  /* ===== PROFICIENCY & SKILLS ===== */
+  .proficiency-skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
-    .about-name {
-        font-size: var(--h1-about-name-lg);
-    }
-    
+  .proficiency {
+    padding: var(--section-padding-lg);
+    border-radius: var(--default-radius-lg);
+  }
 
-    /* ===== MAIN CONTENT ===== */
-    main {
-        width: 800px;
-    }
+  .proficiency h2 {
+    font-size: var(--h2-font-size-lg);
+  }
 
+  /* ===== SKILLS ===== */
+  .skills {
+    padding: var(--section-padding-lg);
+    border-radius: var(--default-radius-lg);
+  }
 
+  .skills h2 {
+    font-size: var(--h2-font-size-lg);
+  }
 
-    /* ===== PROFICIENCY & SKILLS ===== */
-    .proficiency-skills {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
+  .skill-item {
+    border-radius: 96px;
+  }
 
-    .proficiency {
-        padding: var(--section-padding-lg);
-        border-radius: var(--default-radius-lg);
-    }
+  /* ===== PROJECTS ===== */
+  .projects {
+    border-radius: var(--default-radius-lg);
+  }
 
+  .projects h2 {
+    font-size: var(--h2-font-size-lg);
+  }
 
-    .proficiency h2 {
-        font-size: var(--h2-font-size-lg);
-    }
-    
+  .projects-container {
+    display: flex;
+  }
 
+  .project-card-1,
+  .project-card {
+    gap: 15px;
+    border-radius: var(--default-radius-lg);
+  }
 
-    /* ===== SKILLS ===== */
-    .skills {
-        padding: var(--section-padding-lg);
-        border-radius: var(--default-radius-lg);
-    }
+  /* ===== EDUCATION ===== */
+  .education-tools {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 16px;
+  }
 
-    .skills h2 {
-        font-size: var(--h2-font-size-lg);
-    }
+  .education {
+    padding: var(--section-padding-lg);
+    border-radius: var(--default-radius-lg);
+  }
 
-    .skill-item {
-        border-radius: 96px;
-    }
+  .education h2 {
+    font-size: var(--h2-font-size-lg);
+  }
 
+  .education-item-1,
+  .education-item-2 {
+    border-radius: var(--default-radius-lg);
+  }
 
+  /* ===== TOOLS ===== */
+  .tools {
+    padding: var(--section-padding-sm);
+    border-radius: var(--default-radius-lg);
+    gap: 30px;
+    margin: 1rem 0;
+  }
 
-    /* ===== PROJECTS ===== */
-    .projects h2 {
-        font-size: var(--h2-font-size-lg);
-    }
+  .tools h2 {
+    font-size: var(--h2-font-size-lg);
+  }
 
-    .projects-container {
-        display: flex;
-    }
+  .tools-items-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .project-card-1,
-    .project-card {
-        gap: 15px;
-        border-radius: var(--default-radius-lg);
-    }
+  /* ===== EXPERIENCE ===== */
+  .experience {
+    padding: var(--section-padding-lg);
+    border-radius: var(--default-radius-lg);
+  }
 
-  
+  .experience h2 {
+    font-size: var(--h2-font-size-lg);
+  }
 
-    /* ===== EDUCATION ===== */
-    .education-tools {
-        display: grid;
-        grid-template-columns: 3fr 1fr;
-        gap: 16px
-    }
+  .experience-card-1,
+  .experience-card-2 {
+    font-size: var(--font-size-md);
+    padding: var(--section-padding-lg);
+    border-radius: var(--default-radius-lg);
+  }
 
-    .education {
-        padding: var(--section-padding-lg);
-        border-radius: var(--default-radius-lg);
-    }
+  .experience-point-list {
+    gap: 10px;
+  }
 
-    .education h2 {
-        font-size: var(--h2-font-size-lg);
-    }
+  /* ===== FOOTER ===== */
+  .contact {
+    width: 800px;
+    height: 125px;
+    padding: var(--section-padding-lg);
+    border-radius: var(--default-radius-lg);
+  }
 
-    .education-item-1,
-    .education-item-2 {
-        border-radius: var(--default-radius-lg);
-    }
-
-
-
-    /* ===== TOOLS ===== */
-    .tools {
-        padding: var(--section-padding-sm);
-        border-radius: var(--default-radius-lg);
-        gap: 30px;
-        margin: 1rem 0;
-    }
-    
-
-    .tools h2 {
-        font-size: var(--h2-font-size-lg);
-    }
-
-    .tools-items-wrapper {
-        display: flex;
-        flex-direction: column;
-    }
-
-
-    
-    /* ===== EXPERIENCE ===== */
-    .experience {
-        padding: var(--section-padding-lg);
-        border-radius: var(--default-radius-lg);
-    }
-
-    .experience h2 {
-        font-size: var(--h2-font-size-lg);
-    }
-
-    .experience-card-1,
-    .experience-card-2 {
-        font-size: var(--font-size-md);
-        padding: var(--section-padding-lg);
-        border-radius: var(--default-radius-lg);
-    }
-
-    .experience-point-list {
-        gap: 10px;
-    }
-
-
-
-    /* ===== FOOTER ===== */
-    .contact {
-        width: 800px;
-        height: 125px;
-        padding: var(--section-padding-lg);
-        border-radius: var(--default-radius-lg);
-    }
-
-    .contact h2 {
-        font-size: var(--h2-font-size-lg);
-    }
+  .contact h2 {
+    font-size: var(--h2-font-size-lg);
+  }
 }
